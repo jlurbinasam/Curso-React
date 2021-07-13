@@ -1,0 +1,81 @@
+.iconlist{
+    color: orange;
+    padding: 0px 5px;
+}
+.titulo{
+    font-family: 'Lobster', cursive;
+}
+.banner_header{
+    margin: 5px auto;
+    width: 80%;
+    padding: 15px 20px;
+    border: 3px solid rgb(41, 165, 214);
+    border-radius: 10px;
+    display: flex;
+}
+.body-block{   
+    margin: 7px auto;
+    width: 90%;    
+    border-top: 5px double rgb(52, 33, 156);
+    border-bottom: 5px double rgb(52, 33, 156);
+    border-right: 5px double rgb(52, 33, 156);
+    border-radius: 0 15px 15px 0;
+    background-image: url('../img/paginate.png');
+    background-repeat: repeat-y;
+    background-position: left; 
+    -webkit-box-shadow: 10px 7px 10px 7px rgba(97,102,193,0.77); 
+    box-shadow: 10px 7px 10px 7px rgba(97,102,193,0.77);
+    background-size: 5%;
+}
+body{
+    background: linear-gradient(to right, #1717170f 5%, #ffffff 99%);   
+}
+.gradient-body{
+    padding: 4px;
+    border-radius: 0 15px 15px 0;
+    background: linear-gradient(to right, #17171714 5%, #ffffff 99%);   
+}
+
+@media only screen and (min-width: 541px) and (max-width: 639px) {
+    .listalinks{  
+        height: 330px;
+    }
+    .pasatiempos{  
+        height: 330px;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .listalinks{  
+        height: 500px;
+    }
+    .pasatiempos{  
+        height: 500px;
+    }
+  }
+  .icon-green{
+      font-size: x-large;
+      color:rgb(14, 126, 98);
+      padding: 0 5px;
+  }
+  .columnas{
+    font-family:cursive;
+    color: rgb(14, 126, 98);
+    font-size: medium;
+    margin: 5px auto;
+    width: 80%;
+    padding: 15px 20px;
+    border: 3px solid rgb(41, 165, 214);
+    border-radius: 10px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    -webkit-column-rule: 3px solid rgb(41, 165, 214);
+    -moz-column-rule: 3px solid rgb(41, 165, 214);
+    column-rule: 3px solid rgb(41, 165, 214);
+    
+    
+  }
